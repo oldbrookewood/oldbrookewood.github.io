@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 13px;
-    line-height: 1.4;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 1.5;
     color: #000000;
     background-color: #ffffff;
 }
@@ -20,7 +20,7 @@ body {
     max-width: 800px;
     padding: 12px 20px;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
     font-weight: normal;
     display: flex;
@@ -292,4 +292,167 @@ body {
         font-size: 16px;
         padding: 6px 10px;
     }
+}
+
+/* Process page additions */
+.callout-box {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 12px 15px;
+    border-radius: 3px;
+    margin: 0 0 18px 0;
+}
+
+.callout-box p {
+    margin: 0 0 8px 0;
+}
+
+.process-steps {
+    margin-left: 18px;
+}
+
+.process-step {
+    margin: 0 0 14px 0;
+}
+
+.process-step-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+}
+
+.subsection-title {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 18px 0 10px 0;
+}
+
+.simple-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.simple-list li {
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+.divider {
+    border-top: 1px solid #cccccc;
+    margin: 18px 0;
+}
+
+.faq details {
+    border: 1px solid #e9ecef;
+    background-color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 3px;
+    margin: 8px 0;
+}
+
+.faq summary {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.faq p {
+    margin: 10px 0 0 0;
+}
+
+.cta-box {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 14px 15px;
+    border-radius: 3px;
+    margin: 18px 0 0 0;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.cta-links a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.cta-sep {
+    color: #666666;
+    margin: 0 6px;
+}
+/* Additions for About page layout (append to end of main.css) */
+
+/* Optional section title styling that matches your minimalist feel */
+.section-title {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    color: #000000;
+}
+
+/* Divider line reused elsewhere */
+.divider {
+    border-top: 1px solid #cccccc;
+    margin: 18px 0;
+}
+
+/* Simple list (if not already present from your Process page work) */
+.simple-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.simple-list li {
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+/* Investor grid */
+.investor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Investor card styling */
+.investor-card {
+    border: 1px solid #e9ecef;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Logo placeholder box */
+.investor-logo {
+    width: 100%;
+    height: 58px;
+    border: 1px dashed #cccccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+/* Name placeholder */
+.investor-name {
+    font-size: 12px;
+    color: #000000;
+}
+
+/* Make grid responsive */
+@media (max-width: 480px) {
+    .investor-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+h2 {
+    text-align: center;
 }
