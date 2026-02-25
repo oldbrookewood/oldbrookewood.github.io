@@ -1,96 +1,245 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta name="description" content="Old Brookewood Capital is a traditional search fund led by an operator focused on acquiring and operating one enduringly profitable small business through a thoughtful, long-term transition.">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Criteria</title>
-  <link rel="stylesheet" href="main.css">
+  <title>Criteria — Old Brookewood Capital</title>
+  <meta name="description" content="Acquisition criteria for Old Brookewood Capital — what we look for in a business, what can slow a process, and how a typical transaction progresses.">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
-
 <body>
-  <div class="header-bar">
-    <div><a href="index.html">Old Brookewood Capital</a></div>
-    <div class="dropdown">
-      <button class="menu-btn">☰</button>
-      <div class="dropdown-content">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Old Brookewood Capital — Home">
+        <img class="brand-tree" src="assets/obc-tree.png" alt="">
+        <img class="brand-text" src="assets/obc-text.png" alt="Old Brookewood Capital">
+      </a>
+      <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-label="Open menu" aria-controls="site-nav">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <rect y="3"  width="20" height="2" rx="1" fill="currentColor"/>
+          <rect y="9"  width="20" height="2" rx="1" fill="currentColor"/>
+          <rect y="15" width="20" height="2" rx="1" fill="currentColor"/>
+        </svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="criteria.html">Criteria</a>
-        <a href="process.html">Process</a>
+        <a href="criteria.html" aria-current="page">Criteria</a>
+        <a href="approach.html">Approach</a>
         <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Page header -->
+    <section class="page-header">
+      <div class="page-header-inner">
+        <span class="eyebrow">Acquisition criteria</span>
+        <h1>What fits — and what doesn't.</h1>
+        <p class="lead">
+          This page is written for owners, not for bankers. The criteria below reflect
+          what tends to produce a clean process and a fundable transaction.
+        </p>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="container">
-    <div class="page-title">
-      <h1>Criteria</h1>
-      <br>
-      <p><i>We seek business owners ready to entrust what they've built to a thoughtful next steward.</i></p>
-    </div>
-    
-    <div class="divider"></div>
+    <!-- Criteria table -->
+    <section class="section" aria-labelledby="table-heading">
+      <div class="container">
+        <span class="eyebrow reveal">Target profile</span>
+        <h2 id="table-heading" class="reveal reveal-delay-1">Business criteria</h2>
+        <div class="divider reveal reveal-delay-2"></div>
+      </div>
+      <div class="criteria-table-wrap reveal reveal-delay-2">
+        <table class="criteria-table">
+          <thead>
+            <tr>
+              <th scope="col">Criterion</th>
+              <th scope="col">Target range</th>
+              <th scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Revenue</td>
+              <td>$2M – $20M</td>
+              <td>Businesses above or below this range are occasionally considered; outside it, the financing structure becomes more complex.</td>
+            </tr>
+            <tr>
+              <td>EBITDA / Owner cash flow</td>
+              <td>$750K – $4M+</td>
+              <td>Normalized earnings matter more than reported EBITDA. Add-backs are reviewed carefully.</td>
+            </tr>
+            <tr>
+              <td>Industry</td>
+              <td>Services, light industrial, distribution, specialty trade, healthcare services</td>
+              <td>Technology-dependent and highly cyclical businesses require more scrutiny. Consumer-facing retail is generally outside scope.</td>
+            </tr>
+            <tr>
+              <td>Geography</td>
+              <td>Continental United States</td>
+              <td>No geographic preference within the U.S. The principal is prepared to relocate.</td>
+            </tr>
+            <tr>
+              <td>Ownership structure</td>
+              <td>Single or small number of owners</td>
+              <td>Fragmented cap tables and ongoing minority partners slow timelines. The simpler the ownership, the smoother the process.</td>
+            </tr>
+            <tr>
+              <td>Customer concentration</td>
+              <td>No single customer &gt;30% of revenue (preferred)</td>
+              <td>Higher concentration considered where contract structure or long tenure provides stability.</td>
+            </tr>
+            <tr>
+              <td>Staff continuity</td>
+              <td>Team stays post-close</td>
+              <td>Businesses where performance depends entirely on the selling owner are harder to finance. A working management layer helps.</td>
+            </tr>
+            <tr>
+              <td>Reason for sale</td>
+              <td>Retirement, health, lifestyle, partnership resolution</td>
+              <td>Clean seller motivation reduces complexity. Distressed situations or forced sales are evaluated case-by-case.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-    <div class="essays-container">
-      <h2 class="section-title">What we look for</h2>
-      <p>
-        We are focused on enduring, well-run businesses with strong fundamentals, loyal customers, and teams we can support and grow.
-        Below is a clear snapshot of our acquisition criteria.
+    <!-- Panels: Likes / Slows / Steps -->
+    <section class="section section--tinted" aria-labelledby="panels-heading">
+      <div class="container" style="margin-bottom:2rem;">
+        <span class="eyebrow reveal">Detail</span>
+        <h2 id="panels-heading" class="reveal reveal-delay-1">What helps, what slows, what to expect.</h2>
+        <div class="divider reveal reveal-delay-2"></div>
+      </div>
+      <div class="panels-grid">
+        <div class="panel reveal reveal-delay-1">
+          <h3>What tends to work well</h3>
+          <ul>
+            <li>Recurring revenue — service contracts, maintenance agreements, subscriptions</li>
+            <li>Businesses with a documented process a new operator can follow</li>
+            <li>Owners who have 3–6 months to work alongside the buyer post-close</li>
+            <li>Clean financials with 2–3 years of tax returns</li>
+            <li>Low capital expenditure requirements relative to earnings</li>
+            <li>Pricing power — customers who stay based on quality, not lowest cost</li>
+          </ul>
+        </div>
+        <div class="panel reveal reveal-delay-2">
+          <h3>What tends to slow a process</h3>
+          <ul>
+            <li>Financials that haven't been tax-prepared or are cash-basis only</li>
+            <li>Revenue heavily dependent on one relationship the owner manages personally</li>
+            <li>Pending litigation or unresolved regulatory issues</li>
+            <li>Multiple owners with diverging expectations on price or timeline</li>
+            <li>Real estate entangled in the operating entity</li>
+            <li>Seller unwilling to carry a note or accept any earnout</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Typical steps -->
+    <section class="section" aria-labelledby="steps-heading">
+      <div class="container" style="margin-bottom:3rem;">
+        <span class="eyebrow reveal">Process</span>
+        <h2 id="steps-heading" class="reveal reveal-delay-1">Typical steps from first call to close.</h2>
+        <div class="divider reveal reveal-delay-2"></div>
+        <p class="reveal reveal-delay-2" style="max-width:520px; font-size:.9375rem; color:var(--ink-mid);">
+          A typical transaction takes 4–6 months from signed LOI to close. The steps below
+          reflect how Old Brookewood Capital operates, not an industry average.
+        </p>
+      </div>
+      <div class="steps reveal reveal-delay-3">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h4>Introductory call</h4>
+            <p>20 minutes. Chris explains how the fund works. The seller shares basic background on the business. No financials required.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h4>NDA &amp; preliminary review</h4>
+            <p>A mutual NDA is signed. Chris reviews 2–3 years of financials, a summary of operations, and customer / employee structure.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h4>Site visit</h4>
+            <p>Chris visits the business in person. This is a working session, not a formal presentation. Employees do not need to know the purpose of the visit.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <h4>Letter of Intent</h4>
+            <p>A non-binding LOI outlining price, structure, and exclusivity period. Chris aims to have an LOI on the table within 30 days of first receiving financials.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">5</div>
+          <div class="step-body">
+            <h4>Diligence</h4>
+            <p>Focused and efficient. Requests are batched and prioritized. Chris manages the process directly with advisors — the seller is not asked to repeat information.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">6</div>
+          <div class="step-body">
+            <h4>Close &amp; transition</h4>
+            <p>A transition plan is agreed on during diligence, not after close. Length and structure depend on the business; seller availability is factored in from the start.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="background:var(--warm-white); text-align:center; border-top:1px solid var(--border);">
+      <div class="container">
+        <h2 class="reveal" style="margin-bottom:.75rem;">Questions about fit?</h2>
+        <p class="reveal reveal-delay-1" style="max-width:440px; margin:0 auto 2rem; font-size:.9375rem; color:var(--ink-mid);">
+          A quick call is the fastest way to find out whether a conversation is worth continuing.
+          No obligation, and everything is confidential.
+        </p>
+        <a class="hero-cta reveal reveal-delay-2" href="contact.html">Contact Chris</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <img class="footer-tree" src="assets/obc-tree.png" alt="">
+          <img class="footer-wordmark" src="assets/obc-text.png" alt="Old Brookewood Capital">
+        </div>
+        <p class="footer-tagline">Search fund · Lower middle market</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="criteria.html">Criteria</a>
+        <a href="approach.html">Approach</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div>
+        <p style="font-size:.8125rem;opacity:.7;line-height:1.6;">
+          All inquiries handled<br>confidentially and<br>without obligation.
+        </p>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="yr"></span> Old Brookewood Capital. All rights reserved.
       </p>
-
-      <div class="divider"></div>
-
-      <h2 class="section-title">Financial profile</h2>
-      <ul class="simple-list">
-        <li><strong>Revenue:</strong> $5M to $50M</li>
-        <li><strong>Earnings:</strong> $1.5M to $5M (EBITDA or SDE)</li>
-        <li><strong>History:</strong> Profitable for 3+ years</li>
-        <li><strong>Margins:</strong> Pre-tax profit margin &#8805; 10%</li>
-      </ul>
-
-      <div class="divider"></div>
-
-      <h2 class="section-title">Business characteristics</h2>
-      <ul class="simple-list">
-        <li>Recurring or repeat customer demand</li>
-        <li>Diversified customer base (limited customer concentration)</li>
-        <li>Strong reputation and durable competitive position</li>
-        <li>Opportunities for operational improvement and steady growth</li>
-        <li>Low customer churn and high customer satisfaction</li>
-      </ul>
-
-      <div class="divider"></div>
-
-      <h2 class="section-title">Owner and transition fit</h2>
-      <ul class="simple-list">
-        <li>Owner seeking a thoughtful transition and long-term steward</li>
-        <li>Willingness to support a defined transition period (flexible timeline)</li>
-        <li>Interest in protecting employees, customers, and legacy</li>
-        <li>Clean, straightforward communication and aligned expectations</li>
-      </ul>
-
-      <div class="divider"></div>
-
-      <div class="cta-box">
-        <div class="cta-title">Have a business that fits?</div>
-        <p>
-          If you're considering a transition - even if you're early in the process - we welcome a confidential conversation.
-        </p>
-        <p class="cta-links">
-          <a href="contact.html">Contact</a>
-          <span class="cta-sep">|</span>
-          <a href="mailto:chris@oldbrookewood.com">chris@oldbrookewood.com</a>
-        </p>
-      </div>
     </div>
+  </footer>
 
-    <div class="footer">
-      <p>2026 | Old Brookewood Capital LLC</p>
-    </div>
-  </div>
-
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+  <script src="assets/site.js"></script>
 </body>
 </html>
